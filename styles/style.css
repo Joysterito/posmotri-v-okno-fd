@@ -70,6 +70,10 @@ ol {
   white-space: nowrap;
 }
 
+/*.result {
+  width: 711px;
+}*/
+
 .result__video-container {
   position: relative;
   margin-bottom: 16px;
@@ -161,6 +165,11 @@ ol {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  font-family: Oswald;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  text-transform: uppercase;
 }
 
 .content__video-card-description {
@@ -169,6 +178,7 @@ ol {
   overflow: hidden; /* Обрезает текст */
   line-clamp: 4; /* Устанавливает ограничение в две строки */
   -webkit-line-clamp: 4; /* Для совместимости с Webkit браузерами */
+  line-height: 16.2px;
 }
 
 .content__video-card-thumbnail {
@@ -230,6 +240,7 @@ ol {
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
+  padding: 1px;
 }
 
 .search-form__pseudo-checkbox::after {
